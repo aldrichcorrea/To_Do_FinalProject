@@ -13,7 +13,7 @@ yarn install
 ### Development
 ```bash
 # Start development server
-npm expo start
+npx expo start
 
 ```
 
