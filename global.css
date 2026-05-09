@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root styles */
+@layer base {
+  :root {
+    /* Monochrome Premium Palette */
+    --color-black: #0a0a0a;
+    --color-dark-gray: #111111;
+    --color-card-gray: #1a1a1a;
+    --color-border-gray: #2a2a2a;
+    --color-surface: #27272a;
+    --color-muted-text: #a1a1aa;
+    --color-white: #ffffff;
+  }
+}
+
+/* Component utilities */
+@layer components {
+  .card-base {
+    @apply rounded-lg bg-mono-800 border border-mono-700;
+  }
+
+  .button-primary {
+    @apply bg-mono-600 rounded-lg px-4 py-2.5 font-medium text-mono-0;
+  }
+
+  .button-secondary {
+    @apply bg-mono-800 rounded-lg px-4 py-2.5 font-medium text-mono-300 border border-mono-700;
+  }
+
+  .text-label {
+    @apply text-xs font-semibold tracking-widest uppercase text-mono-500;
+  }
+
+  .text-body {
+    @apply text-sm font-medium text-mono-200;
+  }
+
+  .input-field {
+    @apply bg-mono-800 rounded-lg border border-mono-700 px-3.5 py-2.5 text-mono-0;
+  }
+
+  .stat-card {
+    @apply flex-1 rounded-lg bg-mono-700 border border-mono-600 py-3 items-center;
+  }
+}
