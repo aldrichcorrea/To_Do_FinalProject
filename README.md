@@ -13,26 +13,7 @@ yarn install
 ### Development
 ```bash
 # Start development server
-npm start
-
-# iOS Simulator
-npm run ios
-
-# Android Emulator
-npm run android
-
-# Web Browser
-npm run web
-```
-
-### Quality Checks
-```bash
-# Run linter
-npm run lint
-
-# Fix linting issues
-npm run lint -- --fix
-```
+npm expo start -c
 
 ##  Project Structure
 
