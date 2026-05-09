@@ -13,7 +13,9 @@ yarn install
 ### Development
 ```bash
 # Start development server
-npm expo start -c
+npm expo start
+
+```
 
 ##  Project Structure
 
@@ -146,7 +148,7 @@ npm run lint
 - [ ] Empty state displays when no tasks
 - [ ] Data persists after app restart
 
-##  Supported Platforms
+## 📱 Supported Platforms
 
 - iOS 13+
 - Android 6.0+
